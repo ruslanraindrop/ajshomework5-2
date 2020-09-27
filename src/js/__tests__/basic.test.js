@@ -47,7 +47,6 @@ test('Should level up', () => {
 });
 
 test('Should take damage', () => {
-
   const received = new Character('SomeName', 'SomeType');
   received.damage(20);
 
